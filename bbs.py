@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#日本語でもエラーが出ないようにする
+#日本語でもエラーが出ないようにする。
 import sys
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
