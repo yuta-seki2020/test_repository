@@ -60,7 +60,7 @@ $ sudo systemctl restart apache2
 #### ⑦public_htmlに.htaccessを作成する
 
 ```
-
+$ touch .htaccess
 AddHandler cgi-script.py
 
 ```
