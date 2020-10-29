@@ -109,7 +109,7 @@ def proceed_methods():
 
 # メイン処理を実行する関数
 def main():
-    # CGIとして実行するためのおまじない
+	# CGIとして実行するためのおまじない
         print( 'Content-Type: text/html; charset=utf-8' )
         print( '' )
 
@@ -136,18 +136,18 @@ def main():
 
 
         #フォーム経由のアクセスか判定
-        if( 'method_type' in form_data ):
-            #フォーム経由のアクセスである場合はフォームの種類に従って処理を実行
-                proceed_methods()
-        else:
-            #フォーム経由のアクセスではない場合は通常トップ画面を表示
-                print_html()
+	if( 'method_type' in form_data ):
+		#フォーム経由のアクセスである場合はフォームの種類に従って処理を実行
+		proceed_methods()
+	else:
+		#フォーム経由のアクセスではない場合は通常トップ画面を表示
+		print_html()
 
         #一通りの処理が完了した最後にデーターベースを切断しておく
         cur.close()
         con.close()
 
 if __name__ == "__main__":
-    # main() を実行
-        main()
+	# main() を実行
+	main()
 
