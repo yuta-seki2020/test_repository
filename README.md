@@ -13,29 +13,31 @@
 
 `$ mkdir publik_html`
 
-②bbs.pyを①の中に挿入
+③bbs.pyを①の中に挿入
 
 `$ touch bbs.py`
 
-③pip3をインストールした後にmysqlclientをインストール
+④pip3をインストールした後にmysqlclientをインストール
 
 `$ sudo python3 get-pip.py`
  
 `$ pip3 install mysqlclient`
  
-④userdir.confのOptionsにExecCGIを追加する
+⑤userdir.confのOptionsにExecCGIを追加する
 
 `Options ExecCGI MultiViews Indexes`
 
-⑤CGIモジュールを有効にする
+⑥CGIモジュールを有効にする
+
 `$ sudo a2enmod cgi`
+
 `$ sudo systemctl restart apache2`
 
-⑥public_htmlに.htaccessを作成
+⑦public_htmlに.htaccessを作成
 
 `AddHandler cgi-script.py`
 
-⑦public_htmlに.envを作成し下記を記述
+⑧public_htmlに.envを作成し下記を記述
 
 `bbs_db_host=ホスト名`
 
