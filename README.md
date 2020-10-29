@@ -61,6 +61,7 @@ $ sudo systemctl restart apache2
 
 ```
 $ touch .htaccess
+
 AddHandler cgi-script.py
 
 ```
