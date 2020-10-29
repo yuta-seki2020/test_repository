@@ -28,7 +28,7 @@ $ mkdir public_html
 $ touch bbs.py
 
 ```
-###### GitHubに上がっているbbsをコピペする
+###### GitHubにあがっているbbs.pyをコピペする
 
 #### ④pip3をインストールした後にmysqlclientをインストール
 
