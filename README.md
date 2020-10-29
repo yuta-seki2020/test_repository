@@ -7,13 +7,13 @@
 
 ```
 
-`$ sudo a2enmod`
+$ sudo a2enmod
 
-`$ sudo service apache2 restart`
+$ sudo service apache2 restart
 
 ```
 
-#### ②public_htmlファイルを作る
+#### ②public_htmlフォルダを作る
 
 ```
 
