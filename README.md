@@ -21,7 +21,7 @@ $ mkdir public_html
 
 ```
 
-#### ③bbs.pyを①の中に挿入
+#### ③bbs.pyをpublic_htmlの中に作成する
 
 ```
 
