@@ -65,7 +65,7 @@ AddHandler cgi-script.py
 
 ```
 
-#### ⑧public_htmlに.envを作成し下記を記述
+#### ⑧public_htmlに.envを作成し下記を記述する
 
 ```
 
