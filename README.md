@@ -80,7 +80,12 @@ bbs_db_name=db名
 ```
 
 # 使い方
-`http://[ipアドレス]/~username/bbs.py`
+
+```
+
+http://[ipアドレス]/~username/bbs.py
+
+```
 
 # 環境
 ```
