@@ -99,9 +99,9 @@ http://[ipアドレス]/~username/bbs.py
 # 環境
 ```
 
-Ubuntu Ver 20.04
-MySQL　Ver 8.0.22
-Python Ver 3.8.5
+Ubuntu  20.04
+MySQL　 8.0.22
+Python  3.8.5
  
 ```
 
