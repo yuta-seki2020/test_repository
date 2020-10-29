@@ -52,8 +52,7 @@
 `http://[ipアドレス]/~username/bbs.py`
 
 # 環境
-Windows10
-仮想マシンUbuntu 20.04版
+ Windows10 仮想マシンUbuntu 20.04版
 
 ※それ以外は試してません
 
