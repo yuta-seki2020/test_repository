@@ -92,7 +92,9 @@ http://[ipアドレス]/~username/bbs.py
 # 環境
 ```
 
- Windows10 仮想マシンUbuntu 20.04版
+Ubuntu Ver 20.04
+MySQL　Ver 8.0.22
+Python Ver 3.8.5
  
 ```
 
