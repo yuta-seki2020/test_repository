@@ -57,7 +57,7 @@ $ sudo systemctl restart apache2
 
 ```
 
-#### ⑦public_htmlに.htaccessを作成
+#### ⑦public_htmlに.htaccessを作成する
 
 ```
 
