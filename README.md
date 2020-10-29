@@ -4,25 +4,50 @@
 # 準備すること
 
 ①apache2のモジュール有効にする
- 
+
+`$ sudo a2enmod`
+
+`$ sudo service apache2 restart`
+
 ②public_htmlファイルを作る
+
+`$ mkdir publik_html`
 
 ②bbs.pyを①の中に挿入
 
-③pip3をインストール
- sudo python3 get-pip.py
+`$ touch bbs.py`
 
+③pip3をインストールした後にmysqlclientをインストール
+
+`$ sudo python3 get-pip.py`
+ 
+`$ pip3 install mysqlclient`
+ 
 ④userdir.confのOptionsにExecCGIを追加する
 
+`Options ExecCGI MultiViews Indexes`
+
 ⑤CGIモジュールを有効にする
+`$ sudo a2enmod cgi`
+`$ sudo systemctl restart apache2`
 
-⑥.htaccessを作成
+⑥public_htmlに.htaccessを作成
 
-⑦.envを作成
+`AddHandler cgi-script.py`
+
+⑦public_htmlに.envを作成し下記を記述
+
+`bbs_db_host=ホスト名`
+
+`bbs_db_user=ユーザー名`
+
+`bbs_db_pass=パスワード`
+
+`bbs_db_name=db名`
 
 
 # 使い方
-http://[192.000.00.000]/~username/bbs.py
+`http://[ipアドレス]/~username/bbs.py`
 
 # 環境
 Windows10
