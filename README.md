@@ -3,41 +3,41 @@
 
 # 準備すること
 
-①apache2のモジュール有効にする
+###### ①apache2のモジュール有効にする
 
 `$ sudo a2enmod`
 
 `$ sudo service apache2 restart`
 
-②public_htmlファイルを作る
+###### ②public_htmlファイルを作る
 
 `$ mkdir publik_html`
 
-③bbs.pyを①の中に挿入
+###### ③bbs.pyを①の中に挿入
 
 `$ touch bbs.py`
 
-④pip3をインストールした後にmysqlclientをインストール
+###### ④pip3をインストールした後にmysqlclientをインストール
 
 `$ sudo python3 get-pip.py`
  
 `$ pip3 install mysqlclient`
  
-⑤userdir.confのOptionsにExecCGIを追加する
+###### ⑤userdir.confのOptionsにExecCGIを追加する
 
 `Options ExecCGI MultiViews Indexes`
 
-⑥CGIモジュールを有効にする
+###### ⑥CGIモジュールを有効にする
 
 `$ sudo a2enmod cgi`
 
 `$ sudo systemctl restart apache2`
 
-⑦public_htmlに.htaccessを作成
+###### ⑦public_htmlに.htaccessを作成
 
 `AddHandler cgi-script.py`
 
-⑧public_htmlに.envを作成し下記を記述
+###### ⑧public_htmlに.envを作成し下記を記述
 
 `bbs_db_host=ホスト名`
 
