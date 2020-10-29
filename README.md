@@ -17,7 +17,7 @@
 
 ```
 
-$ mkdir publik_html
+$ mkdir public_html
 
 ```
 
